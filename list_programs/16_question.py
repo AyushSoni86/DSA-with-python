@@ -36,7 +36,6 @@ def find_sequence_using_sorting(nums):
 
 # using set   
 def find_sequence_using_set(nums):
-    n = len(nums)
     my_set = set(nums)
     longest = 0
     for num in my_set:
